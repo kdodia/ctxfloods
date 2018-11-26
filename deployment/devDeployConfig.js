@@ -31,8 +31,8 @@ module.exports = {
     deploy: true,
     backend: "402-community"
   },
-  "sandbox-1": {
+  "sandbox-2": {
     deploy: true,
-    backend: "sandbox-1"
+    backend: "sandbox-2"
   }
 };
