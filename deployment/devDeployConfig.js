@@ -38,5 +38,9 @@ module.exports = {
   "195-camera": {
     deploy: true,
     backend: "195-camera"
+  },
+  "425-scale": {
+    deploy: true,
+    backend: "425-scale"
   }
 };
