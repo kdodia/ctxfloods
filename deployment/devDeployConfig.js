@@ -38,5 +38,9 @@ module.exports = {
   "195-camera": {
     deploy: true,
     backend: "195-camera"
+  },
+  "427-passwords": {
+    deploy: true,
+    backend: "427-passwords",
   }
 };
