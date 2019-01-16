@@ -8,7 +8,10 @@ import { logError } from './logger';
 import { isTokenExpired } from './jwtHelper';
 
 const httpLink = createHttpLink({
-  uri: `${process.env.REACT_APP_BACKEND_URL}/graphql`,
+  uri: `https://kx37lu2reb.execute-api.us-east-1.amazonaws.com/default/graphql`,
+  fetchOptions: {
+    method: "POST"
+  }
 });
 
 const errorLink = onError(({ graphQLErrors, networkError, operation, forward }) => {

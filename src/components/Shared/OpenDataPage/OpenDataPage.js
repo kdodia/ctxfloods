@@ -5,7 +5,7 @@ import 'components/Shared/OpenDataPage/graphiql.css';
 import 'components/Shared/OpenDataPage/OpenDataPage.css';
 
 function graphQLFetcher(graphQLParams) {
-  return fetch(`${process.env.REACT_APP_BACKEND_URL}/graphql`, {
+  return fetch(`https://kx37lu2reb.execute-api.us-east-1.amazonaws.com/default/graphql`, {
     method: 'post',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(graphQLParams),
